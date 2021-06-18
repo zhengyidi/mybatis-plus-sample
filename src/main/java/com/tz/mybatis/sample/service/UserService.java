@@ -1,7 +1,7 @@
-package com.wego.mybatis.sample.service;
+package com.tz.mybatis.sample.service;
 
 import com.baomidou.mybatisplus.extension.service.IService;
-import com.wego.mybatis.sample.entity.User;
+import com.tz.mybatis.sample.entity.User;
 
 public interface UserService extends IService<User> {
 }

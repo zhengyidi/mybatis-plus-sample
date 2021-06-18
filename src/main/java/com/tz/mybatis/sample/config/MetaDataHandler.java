@@ -1,4 +1,4 @@
-package com.wego.mybatis.sample.config;
+package com.tz.mybatis.sample.config;
 
 import com.baomidou.mybatisplus.core.handlers.MetaObjectHandler;
 import org.apache.ibatis.reflection.MetaObject;

@@ -6,6 +6,9 @@ spring:
     driver-class-name: com.mysql.cj.jdbc.Driver
     username: root
     password: root
+    initialization-mode: always
+    schema:
+      - classpath:init-sql/init.sql
     druid:
       filters: wall,stat
       web-stat-filter:
@@ -22,8 +25,8 @@ spring:
         login-username: admin
         login-password: 123
 mybatis:
-  type-aliases-package: com.wego.mybatis.sample.entity
-  mapper-default-scope: com.wego.mybatis.sample.mapper
+  type-aliases-package: com.tz.mybatis.sample.entity
+  mapper-default-scope: com.tz.mybatis.sample.mapper
   mapper-locations: classpath:mappers/*xml
   configuration:
     log-impl: org.apache.ibatis.logging.slf4j.Slf4jImpl

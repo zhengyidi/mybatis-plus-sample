@@ -1,11 +1,11 @@
-package com.wego.mybatis.sample;
+package com.tz.mybatis.sample;
 
 import cn.hutool.core.lang.UUID;
 import cn.hutool.core.util.RandomUtil;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.core.conditions.update.UpdateWrapper;
-import com.wego.mybatis.sample.entity.User;
-import com.wego.mybatis.sample.service.UserService;
+import com.tz.mybatis.sample.entity.User;
+import com.tz.mybatis.sample.service.UserService;
 import org.junit.jupiter.api.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;

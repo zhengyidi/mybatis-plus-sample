@@ -1,4 +1,4 @@
-package com.wego.mybatis.sample.config;
+package com.tz.mybatis.sample.config;
 
 import com.baomidou.mybatisplus.extension.plugins.MybatisPlusInterceptor;
 import com.baomidou.mybatisplus.extension.plugins.inner.BlockAttackInnerInterceptor;

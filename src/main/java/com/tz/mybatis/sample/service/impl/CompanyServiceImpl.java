@@ -1,9 +1,9 @@
-package com.wego.mybatis.sample.service.impl;
+package com.tz.mybatis.sample.service.impl;
 
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
-import com.wego.mybatis.sample.entity.Company;
-import com.wego.mybatis.sample.mapper.CompanyMapper;
-import com.wego.mybatis.sample.service.CompanyService;
+import com.tz.mybatis.sample.entity.Company;
+import com.tz.mybatis.sample.mapper.CompanyMapper;
+import com.tz.mybatis.sample.service.CompanyService;
 import org.springframework.stereotype.Service;
 
 @Service

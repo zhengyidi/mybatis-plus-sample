@@ -1,4 +1,4 @@
-package com.wego.mybatis.sample.entity;
+package com.tz.mybatis.sample.entity;
 
 import lombok.Data;
 import lombok.EqualsAndHashCode;
