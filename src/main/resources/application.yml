@@ -6,9 +6,9 @@ spring:
     driver-class-name: com.mysql.cj.jdbc.Driver
     username: root
     password: root
-    initialization-mode: always
-    schema:
-      - classpath:init-sql/init.sql
+#    initialization-mode: always
+#    schema:
+#      - classpath:init-sql/init.sql
     druid:
       filters: wall,stat
       web-stat-filter:
@@ -42,4 +42,4 @@ mybatis-plus:
       logic-not-delete-value: 0
 logging:
   level:
-    com.wego.mybatis.sample.mapper: debug
+    com.tz.mybatis.sample.mapper: debug

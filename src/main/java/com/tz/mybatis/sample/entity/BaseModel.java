@@ -22,7 +22,7 @@ public class BaseModel {
     private LocalDateTime updateTime;
 
     @Version
-    private Integer version;
+    private Integer version = 0;
 
     /**
      * 默认值为未删除
