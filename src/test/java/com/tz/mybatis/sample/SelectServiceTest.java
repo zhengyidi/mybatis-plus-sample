@@ -10,7 +10,6 @@ import com.tz.mybatis.sample.entity.Company;
 import com.tz.mybatis.sample.entity.User;
 import com.tz.mybatis.sample.service.CompanyService;
 import com.tz.mybatis.sample.service.UserService;
-import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.MethodOrderer;
 import org.junit.jupiter.api.Order;
 import org.junit.jupiter.api.Test;
